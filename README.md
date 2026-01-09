@@ -34,7 +34,6 @@ flowchart TB
     C --> E["Grafana"]
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
-
     ```md
 THIS IS TEST LINE
 
