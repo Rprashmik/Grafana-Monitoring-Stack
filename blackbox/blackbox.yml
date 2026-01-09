@@ -1,0 +1,9 @@
+modules:
+  http_2xx:
+    prober: http
+    timeout: 10s
+    http:
+      follow_redirects: true
+      preferred_ip_protocol: "ip4"
+      tls_config:
+        insecure_skip_verify: true
