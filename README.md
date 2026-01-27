@@ -50,6 +50,8 @@ Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
 
 Containerization: Docker & Docker Compose
 
+
+
 📈 Features
 
 Linux server monitoring (CPU, RAM, Disk, Network)
@@ -97,6 +99,8 @@ Grafana: http://localhost:3001
 
 Prometheus: http://localhost:9090
 
+
+
 📸 Dashboards
 
 Add screenshots in the screenshots/ folder for:
@@ -108,6 +112,8 @@ Windows server dashboard
 Docker containers dashboard
 
 Website monitoring dashboard
+
+
 
 Loki logs dashboard
 
@@ -121,6 +127,8 @@ Docker container down
 
 Alerts are sent using Grafana Email Alerting.
 
+
+
 🧪 Tested Environment
 
 Ubuntu / Debian Linux
@@ -128,6 +136,8 @@ Ubuntu / Debian Linux
 Docker & Docker Compose
 
 Windows Server with windows_exporter
+
+
 
 👨‍💻 Author
 
