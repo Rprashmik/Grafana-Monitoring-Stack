@@ -28,13 +28,12 @@ It monitors:
 
 ```mermaid
 flowchart TB
-    A[Servers / Apps / Containers<br>Linux, Windows, Docker, Websites] --> B[Exporters<br>Node, Windows, cAdvisor, Blackbox, Promtail]
-    B --> C[Prometheus]
-    B --> D[Loki]
-    C --> E[Grafana]
-    D --> E[Grafana]
-    E --> F[Dashboards & Alerts<br>Email Notifications]
-
+    A["Servers / Apps / Containers<br/>Linux, Windows, Docker, Websites"] --> B["Exporters<br/>Node, Windows, cAdvisor, Blackbox, Promtail"]
+    B --> C["Prometheus"]
+    B --> D["Loki"]
+    C --> E["Grafana"]
+    D --> E["Grafana"]
+    E --> F["Dashboards & Alerts<br/>Email Notifications"]
 🧰 Tech Stack
 
 Monitoring: Prometheus, Grafana
@@ -65,7 +64,7 @@ Website down
 
 Docker container down
 
-Project Structure
+📂 Project Structure
 Grafana-Monitoring-Stack/
 ├── docker-compose.yml
 ├── prometheus.yml
@@ -89,9 +88,19 @@ Grafana: http://localhost:3001
 
 Prometheus: http://localhost:9090
 
-
 📸 Dashboards
 
+Add screenshots in the screenshots/ folder:
+
+Linux server dashboard
+
+Windows server dashboard
+
+Docker containers dashboard
+
+Website monitoring dashboard
+
+Loki logs dashboard
 
 🚨 Alerts Implemented
 
@@ -101,4 +110,9 @@ Website down
 
 Docker container down
 
-Alerts are sent using Grafana Email Alerting.
+Alerts are sent using Grafana Email Alerting
+
+
+
+
+  
