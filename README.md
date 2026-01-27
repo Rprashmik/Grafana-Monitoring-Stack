@@ -39,3 +39,13 @@ flowchart TB
     C --> E["Grafana"]
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
+
+🧰 Tech Stack
+
+Monitoring: Prometheus, Grafana
+
+Logging: Loki, Promtail
+
+Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
+
+Containerization: Docker & Docker Compose
