@@ -39,13 +39,26 @@ flowchart TB
     C --> E["Grafana"]
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
----
-##🧰 Tech Stack
 
-- **Monitoring:** Prometheus, Grafana
-- **Logging:** Loki, Promtail
-- **Exporters:** Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
-- **Containerization:** Docker & Docker Compose
+
+🧰 Tech Stack
+
+Monitoring: Prometheus, Grafana
+
+Logging: Loki, Promtail
+
+Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
+
+Containerization: Docker & Docker Compos
+
+
+---
+
+# ⚠️ MOST IMPORTANT RULE
+
+There must be **ONLY ONE**:
+
+
 
 ---
 
@@ -60,6 +73,9 @@ flowchart TB
   - High CPU usage
   - Website down
   - Docker container down
+
+## 🧰 Tech Stack
+
 
 ---
 
