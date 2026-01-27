@@ -28,7 +28,6 @@ It also supports:
 - Resource Monitoring  
 
 ---
-
 ## 🏗️ Architecture
 
 ```mermaid
@@ -40,15 +39,36 @@ flowchart TB
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
 
+
+
 🧰 Tech Stack
 
-Monitoring: Prometheus, Grafana
+⚠️ **Notice:**  
+Diagram ke baad **```** close kiya hai, phir Tech Stack start ho raha hai.
 
-Logging: Loki, Promtail
+---
 
-Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
+# 🛠️ What You Must Do Now
 
-Containerization: Docker & Docker Compose
+1. GitHub → README.md → ✏️ Edit
+2. Architecture section ko upar wale **correct block se replace** karo
+3. Save / Commit
+
+---
+
+# 🎯 Result
+
+- ❌ “Unable to render rich display” error chala jayega  
+- ✅ Diagram proper render hoga  
+- ✅ README 100% professional ho jayega  
+
+---
+
+# 🧠 Rule Yaad Rakho
+
+```markdown
+```mermaid
+DIAGRAM
 
 📈 Features
 
