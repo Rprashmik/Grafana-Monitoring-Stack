@@ -4,23 +4,28 @@
 
 This project demonstrates a complete production-grade monitoring, logging and alerting system using:
 
-- Prometheus
-- Grafana
-- Loki
-- Promtail
-- Blackbox Exporter
-- Node Exporter
-- Windows Exporter
-- cAdvisor
+- Prometheus  
+- Grafana  
+- Loki  
+- Promtail  
+- Blackbox Exporter  
+- Node Exporter  
+- Windows Exporter  
+- cAdvisor  
 
 It monitors:
 
-- Linux Servers
-- Windows Servers
-- Docker Containers
-- Websites / APIs
-- Centralized Logs
-- Sends Email Alerts
+- Linux Servers  
+- Windows Servers  
+- Docker Containers  
+- Websites / APIs  
+- Centralized Logs  
+
+It also supports:
+
+- Email Alerts  
+- Uptime Monitoring  
+- Resource Monitoring  
 
 ---
 
@@ -69,7 +74,7 @@ Grafana-Monitoring-Stack/
 ├── docker-compose.yml
 ├── prometheus.yml
 ├── Linux_Servers.yml
-├── Windows_server.yml
+├── Windows_servers.yml
 ├── blackbox/
 ├── loki/
 ├── promtail/
@@ -79,10 +84,13 @@ Grafana-Monitoring-Stack/
 └── README.md
 
 ▶️ How to Run
+
+Start the stack:
+
 docker compose up -d
 
 
-Open:
+Open in browser:
 
 Grafana: http://localhost:3001
 
@@ -110,9 +118,12 @@ Website down
 
 Docker container down
 
-Alerts are sent using Grafana Email Alerting
+Alerts are sent using Grafana Email Alerting.
 
+🧪 Tested Environment
 
+Ubuntu / Debian Linux
 
+Docker & Docker Compose
 
-  
+Windows Server with windows_exporter
