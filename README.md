@@ -74,8 +74,6 @@ You should see it **only once**.
 Open **Code tab** and send me screenshot of README source — I will tell you **exact lines to delete**.
 
 
-## 🧰 Tech Stack
-
 
 
 
