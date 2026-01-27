@@ -33,6 +33,7 @@ It also supports:
 
 (Architecture diagram is shown above)
 
+---
 flowchart TB
     A["Servers / Apps / Containers<br/>Linux, Windows, Docker, Websites"] --> B["Exporters<br/>Node, Windows, cAdvisor, Blackbox, Promtail"]
     B --> C["Prometheus"]
