@@ -15,7 +15,8 @@ scrape_configs:
           - localhost
         labels:
           job: varlogs
-          __path__: /var/log/**/*.log
+          host: CSIPL
+          __path__: /var/log/*.log
 
   - job_name: docker
     static_configs:
@@ -24,3 +25,4 @@ scrape_configs:
         labels:
           job: docker
           __path__: /var/lib/docker/containers/*/*.log
+

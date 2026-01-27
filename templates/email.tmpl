@@ -1,0 +1,23 @@
+{{ define "email.default.subject" }}
+🚨 ALERT: {{ .Status | toUpper }} - {{ .CommonLabels.alertname }}
+{{ end }}
+
+{{ define "email.default.html" }}
+<h2>🚨 Alert Status: {{ .Status | toUpper }}</h2>
+
+<p><b>Alert:</b> {{ .CommonLabels.alertname }}</p>
+<p><b>Severity:</b> {{ .CommonLabels.severity }}</p>
+
+<h3>Details:</h3>
+<ul>
+{{ range .Alerts }}
+  <li>
+    <b>Summary:</b> {{ .Annotations.summary }}<br/>
+    <b>Description:</b> {{ .Annotations.description }}<br/>
+    <b>Started At:</b> {{ .StartsAt }}<br/>
+  </li>
+{{ end }}
+</ul>
+
+<p>🔗 <a href="http://192.168.0.190:9093">Open Alertmanager</a></p>
+{{ end }}

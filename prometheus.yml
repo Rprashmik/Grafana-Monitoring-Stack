@@ -1,6 +1,17 @@
 global:
   scrape_interval: 15s
 
+rule_files:
+  - "rules.yml"
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - alertmanager:9093
+
+
+
 scrape_configs:
   - job_name: 'node_exporter'
     static_configs:
@@ -18,11 +29,11 @@ scrape_configs:
       - files:
         - '/etc/prometheus/Linux_Servers.yml'
 
-  - job_name: 'Windows-Servers'         # 👈 New Windows job
-    metrics_path: /metrics
+  - job_name: 'windows'
     file_sd_configs:
       - files:
-          - '/etc/prometheus/Windows_Servers.yml'
+          - /etc/prometheus/Windows_servers.yml
+
 
   - job_name: 'blackbox'
     metrics_path: /probe
@@ -30,6 +41,7 @@ scrape_configs:
       module: [http_2xx]
     static_configs:
       - targets:
+
 #           - http://app.deployflow.tech/
 #          - https://cloudracing.svaapta.com
 #          - https://app.cloudracing.com

@@ -1,0 +1,4 @@
+- targets:
+    - '192.168.1.40:9182'
+  labels:
+    name: 'DotNet Server'

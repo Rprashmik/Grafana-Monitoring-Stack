@@ -1,0 +1,23 @@
+global:
+  resolve_timeout: 5m
+  smtp_smarthost: 'smtp.gmail.com:587'
+  smtp_from: 'rashmikparmar11897@gmail.com'
+  smtp_auth_username: 'rashmikparmar11897@gmail.com'
+  smtp_auth_password: 'hbdhtkiahcfmojix'
+  smtp_require_tls: true
+
+templates:
+  - '/etc/alertmanager/templates/*.tmpl'
+
+
+route:
+  receiver: 'email-alerts'
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+
+receivers:
+- name: 'email-alerts'
+  email_configs:
+  - to: 'rashmikparmar11897@gmail.com'
+    send_resolved: true
