@@ -49,3 +49,87 @@ Logging: Loki, Promtail
 Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
 
 Containerization: Docker & Docker Compose
+
+📈 Features
+
+Linux server monitoring (CPU, RAM, Disk, Network)
+
+Windows server monitoring
+
+Docker container monitoring
+
+Website uptime, latency, and SSL monitoring
+
+Centralized log monitoring using Loki
+
+Email alerting for:
+
+High CPU usage
+
+Website down
+
+Docker container down
+
+📂 Project Structure
+Grafana-Monitoring-Stack/
+├── docker-compose.yml
+├── prometheus.yml
+├── Linux_Servers.yml
+├── Windows_servers.yml
+├── blackbox/
+├── loki/
+├── promtail/
+├── grafana-data/
+├── loki-data/
+├── screenshots/
+└── README.md
+
+▶️ How to Run
+
+Start the stack using Docker Compose:
+
+docker compose up -d
+
+
+Open in your browser:
+
+Grafana: http://localhost:3001
+
+Prometheus: http://localhost:9090
+
+📸 Dashboards
+
+Add screenshots in the screenshots/ folder for:
+
+Linux server dashboard
+
+Windows server dashboard
+
+Docker containers dashboard
+
+Website monitoring dashboard
+
+Loki logs dashboard
+
+🚨 Alerts Implemented
+
+CPU usage > 80%
+
+Website down
+
+Docker container down
+
+Alerts are sent using Grafana Email Alerting.
+
+🧪 Tested Environment
+
+Ubuntu / Debian Linux
+
+Docker & Docker Compose
+
+Windows Server with windows_exporter
+
+👨‍💻 Author
+
+Rashmik Parmar
+DevOps Engineer
