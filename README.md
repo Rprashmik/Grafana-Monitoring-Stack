@@ -33,14 +33,13 @@ It also supports:
 
 ```mermaid
 flowchart TB
-...
-
     A["Servers / Apps / Containers<br/>Linux, Windows, Docker, Websites"] --> B["Exporters<br/>Node, Windows, cAdvisor, Blackbox, Promtail"]
     B --> C["Prometheus"]
     B --> D["Loki"]
     C --> E["Grafana"]
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
+
 🧰 Tech Stack
 
 Monitoring: Prometheus, Grafana
