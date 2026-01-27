@@ -39,21 +39,42 @@ flowchart TB
     C --> E["Grafana"]
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
-🧰 Tech Stack
-Monitoring: Prometheus, Grafana
 
-Logging: Loki, Promtail
-
-Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
-
-Containerization: Docker & Docker Compose
 
 
 ---
 
-# ⚠️ VERY IMPORTANT RULES
+## ⚠️ VERY IMPORTANT
 
-1. Mermaid diagram **must end with**:
+- There must be **ONLY ONE** Architecture section
+- There must be **ONLY ONE** mermaid block
+- After the closing ``` there must be **normal text**, not diagram text
+
+---
+
+# 🎯 After Save, Result Will Be:
+
+- ✅ No red error box
+- ✅ Diagram will render properly
+- ✅ Tech Stack will appear **below normally**
+
+---
+
+# 🧪 If You Want To Verify
+
+Click **Code** tab in GitHub and search:
+
+
+You should see it **only once**.
+
+---
+
+# 📸 If still not fixed
+
+Open **Code tab** and send me screenshot of README source — I will tell you **exact lines to delete**.
+
+
+## 🧰 Tech Stack
 
 
 
