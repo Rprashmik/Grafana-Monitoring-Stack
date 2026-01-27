@@ -98,9 +98,9 @@ docker compose up -d
 
 Open in your browser:
 
-Grafana: http://localhost:3001
+Grafana: http://monitor.deployflow.tech/
 
-Prometheus: http://localhost:9090
+Prometheus: http://192.168.0.190:9090
 
 
 
