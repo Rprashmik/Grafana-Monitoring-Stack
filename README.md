@@ -2,59 +2,59 @@
 
 ## 🚀 Project Overview
 
-This project demonstrates a complete production-grade monitoring, logging and alerting system using:
+This project demonstrates a complete, production-grade monitoring, logging, and alerting system built using:
 
-- Prometheus
-- Grafana
-- Loki
-- Promtail
-- Blackbox Exporter
-- Node Exporter
-- Windows Exporter
-- cAdvisor
+- Prometheus  
+- Grafana  
+- Loki  
+- Promtail  
+- Blackbox Exporter  
+- Node Exporter  
+- Windows Exporter  
+- cAdvisor  
 
-It monitors:
+It is capable of monitoring:
 
-- Linux Servers
-- Windows Servers
-- Docker Containers
-- Websites / APIs
-- Centralized Logs
+- Linux servers  
+- Windows servers  
+- Docker containers  
+- Websites / APIs  
+- Centralized logs  
 
 It also supports:
 
-- Email Alerts
-- Uptime Monitoring
-- Resource Monitoring
+- Email alerts  
+- Uptime monitoring  
+- Resource monitoring  
 
 ---
 
 ## 🏗️ Architecture
 
-(Your diagram is already here, keep it)
+(Architecture diagram is shown above)
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Monitoring:** Prometheus, Grafana
-- **Logging:** Loki, Promtail
-- **Exporters:** Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
-- **Containerization:** Docker & Docker Compose
+- **Monitoring:** Prometheus, Grafana  
+- **Logging:** Loki, Promtail  
+- **Exporters:** Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter  
+- **Containerization:** Docker & Docker Compose  
 
 ---
 
 ## 📈 Features
 
-- Linux server monitoring (CPU, RAM, Disk, Network)
-- Windows server monitoring
-- Docker container monitoring
-- Website uptime, latency and SSL monitoring
-- Centralized log monitoring using Loki
+- Linux server monitoring (CPU, RAM, Disk, Network)  
+- Windows server monitoring  
+- Docker container monitoring  
+- Website uptime, latency, and SSL monitoring  
+- Centralized log monitoring using Loki  
 - Email alerting for:
-  - High CPU usage
-  - Website down
-  - Docker container down
+  - High CPU usage  
+  - Website down  
+  - Docker container down  
 
 ---
 
@@ -78,13 +78,13 @@ Grafana-Monitoring-Stack/
 
 ## ▶️ How to Run
 
-Start the stack:
+Start the stack using Docker Compose:
 
 ```bash
 docker compose up -d
 
 
-Open in browser:
+Open in your browser:
 
 Grafana: http://localhost:3001
 
@@ -92,7 +92,7 @@ Prometheus: http://localhost:9090
 
 📸 Dashboards
 
-Add screenshots in the screenshots/ folder:
+Add screenshots in the screenshots/ folder for:
 
 Linux server dashboard
 
