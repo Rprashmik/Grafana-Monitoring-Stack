@@ -4,30 +4,31 @@
 
 This project demonstrates a complete production-grade monitoring, logging and alerting system using:
 
-- Prometheus  
-- Grafana  
-- Loki  
-- Promtail  
-- Blackbox Exporter  
-- Node Exporter  
-- Windows Exporter  
-- cAdvisor  
+- Prometheus
+- Grafana
+- Loki
+- Promtail
+- Blackbox Exporter
+- Node Exporter
+- Windows Exporter
+- cAdvisor
 
 It monitors:
 
-- Linux Servers  
-- Windows Servers  
-- Docker Containers  
-- Websites / APIs  
-- Centralized Logs  
+- Linux Servers
+- Windows Servers
+- Docker Containers
+- Websites / APIs
+- Centralized Logs
 
 It also supports:
 
-- Email Alerts  
-- Uptime Monitoring  
-- Resource Monitoring  
+- Email Alerts
+- Uptime Monitoring
+- Resource Monitoring
 
 ---
+
 ## 🏗️ Architecture
 
 ```mermaid
@@ -38,113 +39,3 @@ flowchart TB
     C --> E["Grafana"]
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
-
-
-
-🧰 Tech Stack
-
-⚠️ **Notice:**  
-Diagram ke baad **```** close kiya hai, phir Tech Stack start ho raha hai.
-
----
-
-# 🛠️ What You Must Do Now
-
-1. GitHub → README.md → ✏️ Edit
-2. Architecture section ko upar wale **correct block se replace** karo
-3. Save / Commit
-
----
-
-# 🎯 Result
-
-- ❌ “Unable to render rich display” error chala jayega  
-- ✅ Diagram proper render hoga  
-- ✅ README 100% professional ho jayega  
-
----
-
-# 🧠 Rule Yaad Rakho
-
-```markdown
-```mermaid
-DIAGRAM
-
-📈 Features
-
-Linux server monitoring (CPU, RAM, Disk, Network)
-
-Windows server monitoring
-
-Docker container monitoring
-
-Website uptime, latency and SSL monitoring
-
-Centralized log monitoring using Loki
-
-Email alerting for:
-
-High CPU usage
-
-Website down
-
-Docker container down
-
-📂 Project Structure
-Grafana-Monitoring-Stack/
-├── docker-compose.yml
-├── prometheus.yml
-├── Linux_Servers.yml
-├── Windows_servers.yml
-├── blackbox/
-├── loki/
-├── promtail/
-├── grafana-data/
-├── loki-data/
-├── screenshots/
-└── README.md
-
-▶️ How to Run
-
-Start the stack:
-
-docker compose up -d
-
-
-Open in browser:
-
-Grafana: http://localhost:3001
-
-Prometheus: http://localhost:9090
-
-📸 Dashboards
-
-Add screenshots in the screenshots/ folder:
-
-Linux server dashboard
-
-Windows server dashboard
-
-Docker containers dashboard
-
-Website monitoring dashboard
-
-Loki logs dashboard
-
-🚨 Alerts Implemented
-
-CPU usage > 80%
-
-Website down
-
-Docker container down
-
-Alerts are sent using Grafana Email Alerting.
-
-🧪 Tested Environment
-
-Ubuntu / Debian Linux
-
-Docker & Docker Compose
-
-Windows Server with windows_exporter
