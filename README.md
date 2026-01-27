@@ -31,47 +31,35 @@ It also supports:
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart TB
-    A["Servers / Apps / Containers<br/>Linux, Windows, Docker, Websites"] --> B["Exporters<br/>Node, Windows, cAdvisor, Blackbox, Promtail"]
-    B --> C["Prometheus"]
-    B --> D["Loki"]
-    C --> E["Grafana"]
-    D --> E["Grafana"]
-    E --> F["Dashboards & Alerts<br/>Email Notifications"]
-```
+(Your diagram is already here, keep it)
 
-🧰 Tech Stack
+---
 
-Monitoring: Prometheus, Grafana
+## 🧰 Tech Stack
 
-Logging: Loki, Promtail
+- **Monitoring:** Prometheus, Grafana
+- **Logging:** Loki, Promtail
+- **Exporters:** Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
+- **Containerization:** Docker & Docker Compose
 
-Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
+---
 
-Containerization: Docker & Docker Compose
+## 📈 Features
 
-📈 Features
+- Linux server monitoring (CPU, RAM, Disk, Network)
+- Windows server monitoring
+- Docker container monitoring
+- Website uptime, latency and SSL monitoring
+- Centralized log monitoring using Loki
+- Email alerting for:
+  - High CPU usage
+  - Website down
+  - Docker container down
 
-Linux server monitoring (CPU, RAM, Disk, Network)
+---
 
-Windows server monitoring
+## 📂 Project Structure
 
-Docker container monitoring
-
-Website uptime, latency and SSL monitoring
-
-Centralized log monitoring using Loki
-
-Email alerting for:
-
-High CPU usage
-
-Website down
-
-Docker container down
-
-📂 Project Structure
 Grafana-Monitoring-Stack/
 ├── docker-compose.yml
 ├── prometheus.yml
@@ -85,10 +73,14 @@ Grafana-Monitoring-Stack/
 ├── screenshots/
 └── README.md
 
-▶️ How to Run
+
+---
+
+## ▶️ How to Run
 
 Start the stack:
 
+```bash
 docker compose up -d
 
 
