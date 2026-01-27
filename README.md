@@ -33,6 +33,8 @@ It also supports:
 
 ```mermaid
 flowchart TB
+...
+
     A["Servers / Apps / Containers<br/>Linux, Windows, Docker, Websites"] --> B["Exporters<br/>Node, Windows, cAdvisor, Blackbox, Promtail"]
     B --> C["Prometheus"]
     B --> D["Loki"]
