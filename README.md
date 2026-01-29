@@ -110,6 +110,28 @@ Grafana-Monitoring-Stack/
 
 ## ▶️ How to Run
 
+---
+
+## 📸 Screenshots
+
+### 🐧 Linux Server Monitoring
+![Linux](screenshots/linux-dashboard.png)
+
+### 🪟 Windows Server Monitoring
+![Windows](screenshots/windows-dashboard.png)
+
+### 🐳 Docker Monitoring
+![Docker](screenshots/docker-dashboard.png)
+
+### 🌐 Website Monitoring (Blackbox)
+![Blackbox](screenshots/blackbox-dashboard.png)
+
+### 📜 Loki Logs
+![Loki](screenshots/loki-dashboard.png)
+
+---
+
+
 Start the stack using Docker Compose:
 
 ```bash
