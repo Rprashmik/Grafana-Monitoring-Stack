@@ -125,7 +125,7 @@ Grafana-Monitoring-Stack/
 
 ### 📜 Loki Logs (System + Docker)
 
-![Loki](screenshots/varlogs-loki-dashboard.png)
+![Loki](screenshots/Varlogs-loki-dashboard.png)
 
 ### 🌐 Website Monitoring (Blackbox)
 ![Blackbox](screenshots/Blackbox-dashboard.png)
