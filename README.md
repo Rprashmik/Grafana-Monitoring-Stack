@@ -53,37 +53,36 @@ flowchart TB
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
 ```
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 
-Monitoring: Prometheus, Grafana
+- **Monitoring:** Prometheus, Grafana  
+- **Logging:** Loki, Promtail  
+- **Exporters:** Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter  
+- **Containerization:** Docker & Docker Compose  
 
-Logging: Loki, Promtail
+---
 
-Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
+## 📈 Features
 
-Containerization: Docker & Docker Compose
+- Linux server monitoring (CPU, RAM, Disk, Network)  
 
-📈 Features
+- Windows server monitoring  
 
-Linux server monitoring (CPU, RAM, Disk, Network)
+- Docker container monitoring  
 
-Windows server monitoring
+- Website uptime, latency, and SSL monitoring  
 
-Docker container monitoring
+- Centralized log monitoring using Loki  
 
-Website uptime, latency, and SSL monitoring
+- Email alerting for:
+  - High CPU usage  
+  - Website down  
+  - Docker container down  
 
-Centralized log monitoring using Loki
+---
 
-Email alerting for:
+## 📂 Project Structure
 
-High CPU usage
-
-Website down
-
-Docker container down
-
-📂 Project Structure
 Grafana-Monitoring-Stack/
 ├── docker-compose.yml
 ├── prometheus.yml
@@ -100,13 +99,15 @@ Grafana-Monitoring-Stack/
 ├── screenshots/
 └── README.md
 
-▶️ How to Run
+
+---
+
+## ▶️ How to Run
 
 Start the stack using Docker Compose:
 
+```bash
 docker compose up -d
-
-
 Open in your browser:
 
 Grafana: http://monitor.deployflow.tech/
@@ -114,7 +115,6 @@ Grafana: http://monitor.deployflow.tech/
 Prometheus: http://192.168.0.190:9090
 
 📸 Dashboards
-
 Screenshots are available in the screenshots/ folder:
 
 Linux server monitoring dashboard
@@ -128,7 +128,6 @@ Website monitoring dashboard (Blackbox)
 Loki logs dashboard
 
 🚨 Alerts Implemented
-
 CPU usage > 80%
 
 Website down
@@ -138,7 +137,6 @@ Docker container down
 Alerts are sent using Grafana Email Alerting.
 
 🧪 Tested Environment
-
 Ubuntu / Debian Linux
 
 Docker & Docker Compose
@@ -146,6 +144,5 @@ Docker & Docker Compose
 Windows Server with windows_exporter
 
 👨‍💻 Author
-
 Rashmik Parmar
 DevOps Engineer
