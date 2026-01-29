@@ -29,11 +29,12 @@ scrape_configs:
       - files:
         - '/etc/prometheus/Linux_Servers.yml'
 
-  - job_name: 'windows'
+ 
+  - job_name: 'Windows-Servers-Monitoring'         # 👈 New Windows job
+    metrics_path: /metrics
     file_sd_configs:
-      - files:
-          - /etc/prometheus/Windows_servers.yml
-
+     - files:
+         - '/etc/prometheus/Windows_servers.yml'
 
   - job_name: 'blackbox'
     metrics_path: /probe
