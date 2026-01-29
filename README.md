@@ -123,15 +123,16 @@ Grafana-Monitoring-Stack/
 ### 🐳 Docker Monitoring
 ![Docker](screenshots/Docker-dashboard.png)
 
-### 📜 Loki Logs (System + Docker)
+### 📜 Loki Logs
+![Loki](screenshots/Loki-dashboard.png)
+
+
+### 📜 Loki Logs (System /var/log)
 
 ![Loki](screenshots/Varlogs-loki-dashboard.png)
 
 ### 🌐 Website Monitoring (Blackbox)
 ![Blackbox](screenshots/Blackbox-dashboard.png)
-
-### 📜 Loki Logs
-![Loki](screenshots/Loki-dashboard.png)
 
 ---
 
