@@ -1,6 +1,6 @@
-# 📊 Grafana Monitoring, Logging & Alerting Stack
+📊 Grafana Monitoring, Logging & Alerting Stack
+🚀 Project Overview
 
-## 🚀 Project Overview
 This project demonstrates a complete, production-grade monitoring, logging, and alerting stack built using modern observability tools:
 
 Prometheus
@@ -63,8 +63,6 @@ Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
 
 Containerization: Docker & Docker Compose
 
-
-
 📈 Features
 
 Linux server monitoring (CPU, RAM, Disk, Network)
@@ -102,7 +100,6 @@ Grafana-Monitoring-Stack/
 ├── screenshots/
 └── README.md
 
-
 ▶️ How to Run
 
 Start the stack using Docker Compose:
@@ -116,10 +113,9 @@ Grafana: http://monitor.deployflow.tech/
 
 Prometheus: http://192.168.0.190:9090
 
-
 📸 Dashboards
 
-Screenshots available in the screenshots/ folder:
+Screenshots are available in the screenshots/ folder:
 
 Linux server monitoring dashboard
 
@@ -130,7 +126,6 @@ Docker containers monitoring dashboard
 Website monitoring dashboard (Blackbox)
 
 Loki logs dashboard
-
 
 🚨 Alerts Implemented
 
@@ -152,5 +147,5 @@ Windows Server with windows_exporter
 
 👨‍💻 Author
 
-Rashmik Parmar 
+Rashmik Parmar
 DevOps Engineer
