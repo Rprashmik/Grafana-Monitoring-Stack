@@ -1,31 +1,43 @@
 # 📊 Grafana Monitoring, Logging & Alerting Stack
 
 ## 🚀 Project Overview
+This project demonstrates a complete, production-grade monitoring, logging, and alerting stack built using modern observability tools:
 
-This project demonstrates a complete, production-grade monitoring, logging, and alerting system built using:
+Prometheus
 
-- Prometheus  
-- Grafana  
-- Loki  
-- Promtail  
-- Blackbox Exporter  
-- Node Exporter  
-- Windows Exporter  
-- cAdvisor  
+Grafana
 
-It is capable of monitoring:
+Loki
 
-- Linux servers  
-- Windows servers  
-- Docker containers  
-- Websites / APIs  
-- Centralized logs  
+Promtail
 
-It also supports:
+Blackbox Exporter
 
-- Email alerts  
-- Uptime monitoring  
-- Resource monitoring  
+Node Exporter
+
+Windows Exporter
+
+cAdvisor
+
+🔍 It monitors:
+
+Linux servers
+
+Windows servers
+
+Docker containers
+
+Websites / APIs
+
+Centralized logs
+
+⚡ It also supports:
+
+Email alerts
+
+Uptime monitoring
+
+Resource monitoring
 
 ---
 
@@ -40,6 +52,7 @@ flowchart TB
     D --> E["Grafana"]
     E --> F["Dashboards & Alerts<br/>Email Notifications"]
 ```
+
 🧰 Tech Stack
 
 Monitoring: Prometheus, Grafana
@@ -49,9 +62,6 @@ Logging: Loki, Promtail
 Exporters: Node Exporter, Windows Exporter, cAdvisor, Blackbox Exporter
 
 Containerization: Docker & Docker Compose
-
-
-
 
 
 
@@ -81,13 +91,17 @@ Grafana-Monitoring-Stack/
 ├── prometheus.yml
 ├── Linux_Servers.yml
 ├── Windows_servers.yml
+├── alertmanager.yml
+├── rules.yml
 ├── blackbox/
 ├── loki/
 ├── promtail/
+├── templates/
 ├── grafana-data/
 ├── loki-data/
 ├── screenshots/
 └── README.md
+
 
 ▶️ How to Run
 
@@ -103,22 +117,20 @@ Grafana: http://monitor.deployflow.tech/
 Prometheus: http://192.168.0.190:9090
 
 
-
 📸 Dashboards
 
-Add screenshots in the screenshots/ folder for:
+Screenshots available in the screenshots/ folder:
 
-Linux server dashboard
+Linux server monitoring dashboard
 
-Windows server dashboard
+Windows server monitoring dashboard
 
-Docker containers dashboard
+Docker containers monitoring dashboard
 
-Website monitoring dashboard
-
-
+Website monitoring dashboard (Blackbox)
 
 Loki logs dashboard
+
 
 🚨 Alerts Implemented
 
@@ -130,8 +142,6 @@ Docker container down
 
 Alerts are sent using Grafana Email Alerting.
 
-
-
 🧪 Tested Environment
 
 Ubuntu / Debian Linux
@@ -139,8 +149,6 @@ Ubuntu / Debian Linux
 Docker & Docker Compose
 
 Windows Server with windows_exporter
-
-
 
 👨‍💻 Author
 
