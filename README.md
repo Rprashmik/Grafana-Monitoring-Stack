@@ -115,19 +115,19 @@ Grafana-Monitoring-Stack/
 ## 📸 Screenshots
 
 ### 🐧 Linux Server Monitoring
-![Linux](screenshots/linux-dashboard.png)
+![Linux](screenshots/Linux-dashboard.png)
 
 ### 🪟 Windows Server Monitoring
-![Windows](screenshots/windows-dashboard.png)
+![Windows](screenshots/Windows-dashboard.png)
 
 ### 🐳 Docker Monitoring
-![Docker](screenshots/docker-dashboard.png)
+![Docker](screenshots/Docker-dashboard.png)
 
 ### 🌐 Website Monitoring (Blackbox)
-![Blackbox](screenshots/blackbox-dashboard.png)
+![Blackbox](screenshots/Blackbox-dashboard.png)
 
 ### 📜 Loki Logs
-![Loki](screenshots/loki-dashboard.png)
+![Loki](screenshots/Loki-dashboard.png)
 
 ---
 
