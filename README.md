@@ -1,5 +1,4 @@
 📊 Grafana Monitoring, Logging & Alerting Stack
-
 🚀 Project Overview
 
 This project demonstrates a complete, production-grade monitoring, logging, and alerting stack built using modern observability tools:
@@ -39,6 +38,7 @@ Email alerts
 Uptime monitoring
 
 Resource monitoring
+
 ---
 
 ## 🏗️ Architecture
