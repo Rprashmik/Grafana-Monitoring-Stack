@@ -87,6 +87,27 @@ flowchart TB
 
 ---
 
+## 📧 Alerting & Notifications   👈 PASTE HERE
+
+This stack includes fully working email alerting using Grafana + Alertmanager.
+
+### 🚨 Implemented Alerts:
+- 🔥 CPU usage > 80%
+- 🌐 Website down (Blackbox)
+- 🐳 Docker container down
+- 🖥️ Server unreachable
+
+### 📬 Notification Channel:
+- Email (SMTP)
+
+### 🧪 Tested:
+- By stopping containers
+- By shutting down exporters
+- By generating high CPU load
+
+✅ Alerts are successfully delivered to email in real-time.
+
+---
 ## 📂 Project Structure
 
 Grafana-Monitoring-Stack/
