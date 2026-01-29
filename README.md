@@ -1,5 +1,10 @@
-**📊 Grafana Monitoring, Logging & Alerting Stack
-**
+# 📊 Grafana Monitoring, Logging & Alerting Stack
+
+> 🚀 Production-Grade Monitoring, Logging & Alerting Stack using Prometheus, Grafana & Loki
+
+---
+
+
 🚀 Project Overview
 
 This project demonstrates a complete, production-grade monitoring, logging, and alerting stack built using modern observability tools:
