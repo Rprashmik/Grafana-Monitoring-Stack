@@ -137,8 +137,6 @@ Grafana-Monitoring-Stack/
 ---
 
 
----
-
 ## 📸 Screenshots
 
 ### 🐧 Linux Server Monitoring
@@ -162,10 +160,8 @@ Grafana-Monitoring-Stack/
 ### 📧 Alert Email (Grafana + Alertmanager)
 ![Alert Email](screenshots/alert-email.png)
 
-
-
-
 ---
+
 
 
 Start the stack using Docker Compose:
