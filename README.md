@@ -136,12 +136,6 @@ Grafana-Monitoring-Stack/
 
 ---
 
-## ▶️ How to Run
-📸 Screenshots
-🚨 Alerts Implemented
-🧪 Tested Environment
-👨‍💻 Author
-
 
 ---
 
@@ -167,6 +161,7 @@ Grafana-Monitoring-Stack/
 
 ### 📧 Alert Email (Grafana + Alertmanager)
 ![Alert Email](screenshots/alert-email.png)
+
 
 
 ---
