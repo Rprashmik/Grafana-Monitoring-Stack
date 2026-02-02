@@ -162,6 +162,9 @@ Grafana-Monitoring-Stack/
 ### 🌐 Website Monitoring (Blackbox)
 ![Blackbox](screenshots/Blackbox-dashboard.png)
 
+### 📧 Alert Email (Grafana + Alertmanager)
+![Alert](screenshots/alert-email.png)
+
 ---
 
 
