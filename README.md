@@ -157,18 +157,17 @@ Grafana-Monitoring-Stack/
 ![Docker](screenshots/Docker-dashboard.png)
 
 ### 📜 Loki Logs (Docker Containers)
-![Loki](screenshots/Loki-dashboard.png)
-
+![Loki Docker](screenshots/Loki-dashboard.png)
 
 ### 📜 Loki Logs (System /var/log)
-
-![Loki](screenshots/Varlogs-loki-dashboard.png)
+![Loki Varlog](screenshots/Varlogs-loki-dashboard.png)
 
 ### 🌐 Website Monitoring (Blackbox)
 ![Blackbox](screenshots/Blackbox-dashboard.png)
 
 ### 📧 Alert Email (Grafana + Alertmanager)
-![Alert](screenshots/alert-email.png)
+![Alert Email](screenshots/alert-email.png)
+
 
 ---
 
