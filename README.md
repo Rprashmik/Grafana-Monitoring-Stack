@@ -86,26 +86,33 @@ flowchart TB
   - Docker container down  
 
 ---
+📧 Alerting & Notifications
 
-## 📧 Alerting & Notifications   👈 PASTE HERE
+This monitoring stack includes fully functional, production-ready email alerting implemented using Grafana + Alertmanager.
 
-This stack includes fully working email alerting using Grafana + Alertmanager.
+🚨 Implemented Alerts
 
-### 🚨 Implemented Alerts:
-- 🔥 CPU usage > 80%
-- 🌐 Website down (Blackbox)
-- 🐳 Docker container down
-- 🖥️ Server unreachable
+🔥 High CPU Usage (> 80%)
 
-### 📬 Notification Channel:
-- Email (SMTP)
+🌐 Website Down (Blackbox Exporter)
 
-### 🧪 Tested:
-- By stopping containers
-- By shutting down exporters
-- By generating high CPU load
+🐳 Docker Container Down
 
-✅ Alerts are successfully delivered to email in real-time.
+🖥️ Server Unreachable
+
+📬 Notification Channel
+
+Email (SMTP)
+
+🧪 Tested Scenarios
+
+Stopping Docker containers
+
+Shutting down exporters / servers
+
+Generating high CPU load
+
+✅ Alerts are delivered to email in real-time with clear FIRING and RESOLVED states.
 
 ---
 ## 📂 Project Structure
